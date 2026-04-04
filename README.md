@@ -6,15 +6,25 @@
 ## STRUCTURE DU PROJET
 
 cybersec_suite/
+
 ├── config.py               ← Tous les paramètres (à éditer en premier)
+
 ├── db_manager.py           ← Base de données SQLite
+
 ├── network_scanner.py      ← Scan des machines actives (ARP)
+
 ├── intrusion_detector.py   ← Détection de comportements suspects
+
 ├── network_sniffer.py      ← Capture de paquets (Scapy)
+
 ├── firewall_blocker.py     ← Blocage IP (iptables / netsh)
+
 ├── vulnerability_scanner.py← Scan de ports ouverts
+
 ├── email_notifier.py       ← Alertes email via Gmail SMTP
+
 ├── main.py                 ← Menu interactif principal
+
 └── cybersec.db             ← Base SQLite (créée automatiquement)
 
 
