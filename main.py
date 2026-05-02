@@ -1,5 +1,5 @@
 # =============================================================================
-# main.py — Programme principal de la suite de cybersécurité PME
+# main.py — Programme principal de la suite de cybersécurité
 # Rôle unique : afficher un menu interactif et appeler les modules correspondants.
 #
 # Ce fichier est le point d'entrée du projet.
@@ -45,9 +45,10 @@ def afficher_banniere():
 ║       ██║       ╚██╔╝  ██╔══██╗██╔══╝  ██╔══██╗             ║
 ║       ╚██████╗   ██║   ██████╔╝███████╗██║  ██║             ║
 ║        ╚═════╝   ╚═╝   ╚═════╝ ╚══════╝╚═╝  ╚═╝             ║
-║                                                              ║
-║          Suite de Cybersécurité Réseau pour PME              ║
-║                      Version 1.0                             ║
+║                                                             ║
+║          Suite de Cybersécurité : Détection d'activites 
+                            suspectes                          ║
+║                          Version 1.0                         ║
 ╚══════════════════════════════════════════════════════════════╝
 """)
 
@@ -59,13 +60,13 @@ def afficher_menu():
     print("─" * 60)
     print("  MENU PRINCIPAL")
     print("─" * 60)
-    print("  [1]  🔍  Scanner le réseau local")
-    print("  [2]  👀  Démarrer le sniffer réseau")
-    print("  [3]  🛡  Scanner les vulnérabilités")
-    print("  [4]  🚫  Bloquer / Gérer les IP")
-    print("  [5]  📧  Envoyer un email de test")
-    print("  [6]  📊  Afficher les IP bloquées")
-    print("  [7]  ❌  Quitter")
+    print("  [1]   Scanner le réseau local")
+    print("  [2]   Démarrer le sniffer réseau")
+    print("  [3]   Scanner les vulnérabilités")
+    print("  [4]   Bloquer / Gérer les IP")
+    print("  [5]   Envoyer un email de test")
+    print("  [6]   Afficher les IP bloquées")
+    print("  [7]   Quitter")
     print("─" * 60)
 
 
