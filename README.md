@@ -1,6 +1,6 @@
 # ============================================================
-# PME CYBERSEC SUITE — README
-# Suite de cybersécurité réseau modulaire en Python
+# CYBERSEC SUITE — README
+# System de Detection d'activites suspectes
 # ============================================================
 
 ## STRUCTURE DU PROJET
