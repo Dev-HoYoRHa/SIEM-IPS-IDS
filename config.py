@@ -72,14 +72,14 @@ DATABASE_PATH = "cybersec.db"
 # ---------------------------------------------------------------------------
 
 # Adresse email de l'administrateur (destinataire des alertes)
-ADMIN_EMAIL = "kiritokirigaya1505@gmail.com"
+ADMIN_EMAIL = "s,tp@gmail.com"
 
 # Expéditeur Gmail utilisé pour envoyer les alertes
-SMTP_SENDER = "kiritokirigaya1505@gmail.com"
+SMTP_SENDER = "azerty@gmail.com"
 
 # Mot de passe d'application Gmail (pas le mot de passe principal !)
 # Générer via : compte Google → Sécurité → Mots de passe des applications
-SMTP_PASSWORD = "150500150500"
+SMTP_PASSWORD = "0146876"
 
 # Serveur SMTP Gmail
 SMTP_HOST = "smtp.gmail.com"
